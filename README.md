@@ -6,6 +6,7 @@ Be careful of not colliding with the blue koopa shell, 2 thwomps, and banzai bil
 
 ### Features:
   Hardware: Nexys A7: FPGA Trainer Board
+  
   VGA Cable
   
 
