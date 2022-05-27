@@ -6,5 +6,5 @@ Be careful of not colliding with the blue koopa shell, 2 thwomps, and banzai bil
 Hardware: Nexys A7: FPGA Trainer Board
 
 
-# UARTrx: Takes the ASCII value of the key pressed from the keyboard to be used as user input
-# IP ROM blocks: Store pixel image data of each sprite. The pixel data is stored in a *.coe file
+###### UARTrx: Takes the ASCII value of the key pressed from the keyboard to be used as user input
+###### IP ROM blocks: Store pixel image data of each sprite. The pixel data is stored in a *.coe file
