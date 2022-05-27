@@ -8,15 +8,10 @@ Be careful of not colliding with the blue koopa shell, 2 thwomps, and banzai bil
 To learn the basics of Verilog by implementing digital logic systems and controlling them using finite state machines (FSMs). 
 
 ### Challenges
-1.   **Storing Pixel Data of Sprites**: I figured out that Vivado does most of the heavy lifting by offering **Block Memory Generator** as an IP, which can be used as a memory type *single port ROM*. The settings for the IP are the same for all sprites, with the only difference being the Port A Depth. Depth = ImageLength * ImageWidth 
+1.   **Storing Pixel Data of Sprites**: I figured out that Vivado does most of the heavy lifting by offering **Block Memory Generator** as an IP, which can be used as a memory type *single port ROM*. The settings for the IP are the same for all sprites (Port A Width = 12, Always Enabled), with the only difference being the Port A Depth. Depth = ImageLength * ImageWidth 
 
 
 
-## Features:
-### top.v
-1.  Connects all modules together 
+## Moduless
+1.  top.v: Connects all modules together 
 
-  
-
-###### UARTrx: Takes the ASCII value of the key pressed from the keyboard to be used as user input
-###### IP ROM blocks: Store pixel image data of each sprite. The pixel data is stored in a *.coe file
