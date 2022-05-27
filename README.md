@@ -15,3 +15,7 @@ To learn the basics of Verilog by implementing digital logic systems and control
 ## Modules
 1.  top.v: Connects all modules together 
 2.  
+
+### References
+1.  https://www.nandland.com/vhdl/modules/module-uart-serial-port-rs232.html
+2.  https://web.mit.edu/6.111/volume2/www/f2019/handouts/labs/lab3_19/rom_vivado.html
