@@ -12,6 +12,6 @@ To learn the basics of Verilog by implementing digital logic systems and control
 
 
 
-## Moduless
+## Modules
 1.  top.v: Connects all modules together 
-
+2.  
