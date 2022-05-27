@@ -10,10 +10,6 @@ To learn the basics of Verilog by implementing digital logic systems and control
 ### Challenges
 1.   **Storing Pixel Data of Sprites**: I figured out that Vivado does most of the heavy lifting by offering *Random Memory Generator* as an IP, which can be used as a single-port ROM block to store the pixels of the sprites *.coe files
 
-abc
-----
-cde
-
 ## Features:
 ### top.v
 1.  Connects all modules together 
