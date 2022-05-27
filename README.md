@@ -6,7 +6,7 @@ Be careful of not colliding with the blue koopa shell, 2 thwomps, and banzai bil
 
 ### Features:
   Hardware: Nexys A7: FPGA Trainer Board
-            VGA Cable
+  VGA Cable
   
 
 ###### UARTrx: Takes the ASCII value of the key pressed from the keyboard to be used as user input
