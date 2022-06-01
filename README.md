@@ -13,8 +13,15 @@ To learn the basics of Verilog by implementing digital logic systems and control
 
 
 ## Modules
-1.  top.v: Connects all modules together 
-2.  
+1.  top.v: Connects all modules together in the system.
+2.  UARTrx.v: Recieves the keyboard inputs as ASCII a baud rate of 9600.
+3.  UARTtx.v: Transmits the ASCII value of the key pressed to the computer.
+4.  Clk_Div.v: Generates a 25 MHz clock from the system clock of 100 MHz.
+5.  VGAcore.v: Generates the appropriate vertical and horizontal synch pulses at a resolution 640 x 480 at a Pixel Clock of 25 MHz.
+6.  PRNG.v: Pseudo-random number generator (PRNG) to allow the spawn locations of the mobs to be somewhat randomized, in view of the player.  
+    - LFSR.v: Outputs a 50-bit and 20-bit long PRNG using taps that maximize the cycle length
+    - FIFOv2.v: An asynchronous FIFO that continously writes at the 
+
 
 ### References
 1.  https://www.nandland.com/vhdl/modules/module-uart-serial-port-rs232.html
