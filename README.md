@@ -19,3 +19,4 @@ To learn the basics of Verilog by implementing digital logic systems and control
 ### References
 1.  https://www.nandland.com/vhdl/modules/module-uart-serial-port-rs232.html
 2.  https://web.mit.edu/6.111/volume2/www/f2019/handouts/labs/lab3_19/rom_vivado.html
+3.  https://github.com/gajjanag/6111_Project/blob/master/assets/audio_convert/makecoe.m
