@@ -23,7 +23,7 @@ To learn the basics of Verilog by implementing digital logic systems and control
     - FIFOv2.v: An asynchronous FIFO that continously writes at the system clock and reads at the pixel clock. The data coming from the buffer corresponds to the randomized x-coordinate of Thwomp #2 on the map.
 7.  GameDisplay.v: Generates all sprites using the Block Memory Generator IP; takes the ASCII key as input to change the coordinates of the player; does all proper logic for the spawn time and location of all sprites and collisions between player and mobs/coins.
     - BinToBCD.v: Converts 14-bit binary number into a 20-bit BCD number. This is used so that the player's score can be outputted to the seven-segment displays.
-9.  PlayerLifeRGB.v: A FSM is used to generates a PWM pulse to an RGB led to either GREEN (3 lives), YELLOW (2 lives), or RED (1 life). 
+9.  PlayerLifeRGB.v: A FSM is used to generate a PWM pulse to an RGB led to either GREEN (3 lives), YELLOW (2 lives), or RED (1 life). 
 10.  nDigitSevenSegDriver.v: A parametrized seven-segment driver that displays the player's score.
   
 
