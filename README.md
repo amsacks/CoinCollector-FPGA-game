@@ -19,7 +19,7 @@ To learn the basics of Verilog by implementing digital logic systems and control
 4.  Clk_Div.v: Generates a 25 MHz clock from the system clock of 100 MHz.
 5.  VGAcore.v: Generates the appropriate vertical and horizontal synch pulses at a resolution 640 x 480 at a Pixel Clock of 25 MHz.
 6.  PRNG.v: Pseudo-random number generator (PRNG) to allow the spawn locations of the mobs to be somewhat randomized, in view of the player. The generated coordinates are made sure to be within the bounds of the active video display.
-    - LFSR.v: Outputs a 50-bit and 20-bit long PRNG using taps that maximize the cycle length
+    - LFSR.v: Outputs a 50-bit and 20-bit long PRNG using taps that maximize the cycle length.
     - FIFOv2.v: An asynchronous FIFO that continously writes at the system clock and reads at the pixel clock. The data coming from the buffer corresponds to the randomized x-coordinate of Thwomp #2 on the map.
 7.  GameDisplay.v: Generates all sprites using the Block Memory Generator IP; takes the ASCII key as input to change the coordinates of the player; does all proper logic for the spawn time and location of all sprites and collisions between player and mobs/coins.
     - BinToBCD.v: Converts 14-bit binary number into a 20-bit BCD number. This is used so that the player's score can be outputted to the seven-segment displays.
