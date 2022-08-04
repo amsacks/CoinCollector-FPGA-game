@@ -1,12 +1,6 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Engineer:        Adrian Sacks
-// Create Date:     05/24/2022 02:51:25 PM
-// Module Name:     GameDisplay
-// Project Name:    CoinCollector
+
 // Description:     Displays all sprites in the CoinCollector game and does game logic.
-// Revision 0.01 -  File Created
-//////////////////////////////////////////////////////////////////////////////////
 
 // ASCII value of the 'w', 's', 'a', 'd' keys. 
 // NOTE: They must be lowercase. 
